@@ -11,7 +11,8 @@
     <script>
         async function getContent() {
             try {
-                const response = await fetch('http://localhost/3000/movies');
+                const response = await fetch('http://localhost:3000/movies');
+                console.log(response);
             } catch (err){
                 console.error(err);
             }
